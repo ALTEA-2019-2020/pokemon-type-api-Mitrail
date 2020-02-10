@@ -43,7 +43,8 @@ public class PokemonTypeServiceImpl implements PokemonTypeService {
     public PokemonType getPokemonType(int id) {
         PokemonType type = pokemonTypeRepository.findPokemonTypeById(id);
         if (translationRepository != null) {
-            type.setName(translationRepository.getPokemonName(id, LocaleContextHolder.getLocale()));
+            String translated = translationRepository.getPokemonName(id, LocaleContextHolder.getLocale());
+            if (translated != null) type.setName(translated);
         }
         return type;
     }
@@ -58,7 +59,8 @@ public class PokemonTypeServiceImpl implements PokemonTypeService {
         List<PokemonType> list = pokemonTypeRepository.findAllPokemonType();
         list.forEach((PokemonType p) -> {
                     if (translationRepository != null) {
-                        p.setName(translationRepository.getPokemonName(p.getId(), LocaleContextHolder.getLocale()));
+                        String translated = translationRepository.getPokemonName(p.getId(), LocaleContextHolder.getLocale());
+                        if (translated != null) p.setName(translated);
                     }
                 }
         );
