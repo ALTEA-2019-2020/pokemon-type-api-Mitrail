@@ -1,0 +1,9 @@
+/home/mitrail/Documents/Cours_SA/ALTEA/pokemon-type-api-Mitrail/src/main/java/com/miage/altea/tp/pokemon_type_api/Application.java
+/home/mitrail/Documents/Cours_SA/ALTEA/pokemon-type-api-Mitrail/src/main/java/com/miage/altea/tp/pokemon_type_api/controller/PokemonTypeController.java
+/home/mitrail/Documents/Cours_SA/ALTEA/pokemon-type-api-Mitrail/src/main/java/com/miage/altea/tp/pokemon_type_api/bo/PokemonType.java
+/home/mitrail/Documents/Cours_SA/ALTEA/pokemon-type-api-Mitrail/src/main/java/com/miage/altea/tp/pokemon_type_api/service/PokemonTypeServiceImpl.java
+/home/mitrail/Documents/Cours_SA/ALTEA/pokemon-type-api-Mitrail/src/main/java/com/miage/altea/tp/pokemon_type_api/repository/PokemonTypeRepositoryImpl.java
+/home/mitrail/Documents/Cours_SA/ALTEA/pokemon-type-api-Mitrail/src/main/java/com/miage/altea/tp/pokemon_type_api/bo/Stats.java
+/home/mitrail/Documents/Cours_SA/ALTEA/pokemon-type-api-Mitrail/src/main/java/com/miage/altea/tp/pokemon_type_api/service/PokemonTypeService.java
+/home/mitrail/Documents/Cours_SA/ALTEA/pokemon-type-api-Mitrail/src/main/java/com/miage/altea/tp/pokemon_type_api/repository/PokemonTypeRepository.java
+/home/mitrail/Documents/Cours_SA/ALTEA/pokemon-type-api-Mitrail/src/main/java/com/miage/altea/tp/pokemon_type_api/bo/Sprites.java
