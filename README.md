@@ -3,8 +3,11 @@ Ce projet contient l'API pokemon-type-api permettant la récupération des types
 L'API présente 4 routes :
 
 GET  /
+
 GET  /{id}
+
 GET  /?name=
+
 GET  /?types=
 
 Les tests de ces routes sont disponibles dans la collection postman pokemon-type.postman_collection.json.
