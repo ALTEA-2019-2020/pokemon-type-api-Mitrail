@@ -28,7 +28,7 @@ public class TranslationRepositoryImpl implements TranslationRepository {
             var englishTranslationsArray = objectMapper.readValue(englishTranslationStream, Translation[].class);
 
             this.translations = Map.of(
-                    Locale.FRENCH, List.of(frenchTranslationsArray),
+                    Locale.FRANCE, List.of(frenchTranslationsArray),
                     Locale.ENGLISH, List.of(englishTranslationsArray)
             );
 
